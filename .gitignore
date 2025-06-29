@@ -1,0 +1,37 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Віртуальне середовище (якщо не в папці проєкту)
+.env
+.env/
+venv/
+env/
+.venv/
+
+# Poetry
+# Poetry створює virtualenv поза проєктом, тому папку віртуального середовища зазвичай не потрібно ігнорувати.
+# Але якщо в тебе env всередині проєкту — додай цю папку
+.poetry/
+
+# Файли lock та pyproject.toml потрібно комітити
+# але можна ігнорувати налаштування IDE і редакторів
+.vscode/
+.idea/
+*.swp
+
+# Логи
+*.log
+
+# Pytest cache
+.pytest_cache/
+
+# Docker
+*.pid
+*.sock
+
+# macOS
+.DS_Store
